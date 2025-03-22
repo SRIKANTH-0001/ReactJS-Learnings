@@ -1,1 +1,77 @@
+//Main.jsx file
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import './index.css'
+import App from './App.jsx'
 
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
+    <App />
+  </StrictMode>,
+)
+
+//App.jsx File
+import Top from './Top.jsx'
+import Bottom from './Bottom.jsx'
+import Routine from './Routine.jsx'
+
+function App() {
+  return(
+    <>
+    <Top/>
+    <Routine/>
+    <Bottom/>
+    </>
+  );
+}
+export default App
+
+//Bottom.jsx File
+function Bottom(){
+return(
+    <footer>
+        <p>&copy; This info was added on {new Date().getFullYear()}</p>
+    </footer>
+);
+}
+export default Bottom
+
+//Top.jsx File
+function top(){
+    return(
+        <header>
+            <h1>Intro Session</h1>
+            <nav>
+                <ol>
+                    <h3>Get Understanding About Following </h3>
+                        <li>How to connect the react with Browser</li>
+                        <li>How to import & export jsx files</li>
+                        <li>Tackling with basic errors</li>
+                        <li>How to use return statement!</li>
+                    <hr/>
+                </ol>
+            </nav>
+        </header> 
+    );
+}
+export default top
+
+//Routine.jsx File
+function Routine(){
+
+    return(
+        <>
+            <h2>What's Your Routine?</h2>
+            <nav>
+                <ul>
+                    <li>Wake Up</li>
+                    <li>Eat</li>
+                    <li>Code</li>
+                    <li>Learn</li>
+                    <li>Sleep</li>
+                </ul>
+            </nav>
+        </>
+    );
+}
+export default Routine
