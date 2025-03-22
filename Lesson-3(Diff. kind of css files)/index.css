@@ -1,0 +1,15 @@
+/*External Css*/
+.button {
+    border: 2px solid rgb(146, 142, 142);
+    border-radius: 2%;
+    background-color: rgb(255, 0, 221);
+    color: rgb(0, 10, 1);
+    height: 50px;
+    width: 120px;
+}
+
+.button:hover{
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+}

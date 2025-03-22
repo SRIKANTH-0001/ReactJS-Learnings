@@ -1,0 +1,13 @@
+.Info{
+    border: 2px solid rgb(46, 41, 41);
+    width: 300px;
+    border-radius: 4px;
+    padding-left: 10px;
+    font-family: Arial;
+    background-color: rgba(137, 43, 226, 0.692);
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+    text-align: left;
+    
+}
