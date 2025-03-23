@@ -1,27 +1,23 @@
-import propTypes from 'prop-types'
+import PropTypes from 'prop-types';
 
-function Home(props){
-    return(
+function Home(
+    { Name = "Unnamed house", Color = "Black", Rooms = 0, isMine = false }
+    ) {
+    return (
         <div className="Info">
-            <p>Name of House: {props.Name}</p>
-            <p>Color of House: {props.Color}</p>
-            <p>Count of Rooms?: {props.Rooms}</p>
-            <p>Is this Your Home?: {props.isMine ? "Yeah!" :"No!"}</p>
+            <p>Name of House: {Name}</p>
+            <p>Color of House: {Color}</p>
+            <p>Count of Rooms?: {Rooms}</p>
+            <p>Is this Your Home?: {isMine ? "Yeah!" : "No!"}</p>
         </div>
     );
 }
 
-Home.propTypes={
-    Name:propTypes.string,
-    Color:propTypes.string,
-    Rooms:propTypes.number,
-    isMine:propTypes.boolean
-}
+Home.propTypes = {
+    Name: PropTypes.string,
+    Color: PropTypes.string,
+    Rooms: PropTypes.number,
+    isMine: PropTypes.bool,
+};
 
-Home.defaultProps={
-    name:"Unnamed",
-    Color:"Black",
-    Rooms:0,
-    ismine:false,
-}
-export default Home
+export default Home;
