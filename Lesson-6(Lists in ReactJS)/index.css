@@ -1,0 +1,10 @@
+.Style{
+    border: 2px solid rgb(136, 116, 116);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: aqua;
+    color: rgb(126, 63, 13);
+    width: 300px;
+}
+
+

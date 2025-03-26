@@ -1,0 +1,29 @@
+.false{
+    border: 2px solid rgb(136, 116, 116);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: aqua;
+    color: rgb(126, 63, 13);
+    width: 300px;
+}
+
+.true{
+    border: 2px solid rgb(116, 106, 106);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(170, 146, 11, 0.788);
+    color: rgb(27, 141, 36);
+    width: 300px;
+}
+
+.true:hover{
+    color: rgb(10, 78, 15);
+    background-color: rgba(185, 161, 24, 0.788);
+   height: 45px;
+}
+
+.true:hover{
+    color: rgb(10, 78, 15);
+    background-color: rgba(185, 161, 24, 0.788);
+    width: 310px;
+}
