@@ -1,0 +1,14 @@
+body{
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    margin-top:40px;
+}
+
+button{
+    margin-top: 15px;
+}
+
+h1{
+    font-weight: bold;
+}
